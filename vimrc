@@ -1,5 +1,8 @@
 "for Windows Terminal
-"set t_Co=256 
+if has('win32')
+  set t_Co=256
+endif
+
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
