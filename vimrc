@@ -25,3 +25,6 @@ if has('gui_running')
 endif
 set encoding=utf-8
 "vnoremap . :norm.<CR>
+
+"keymapping for flag txt files
+map <A-m> 0i[<ESC>A]<ESC>
