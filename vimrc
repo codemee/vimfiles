@@ -9,6 +9,9 @@ set backspace=2 "set backspace to backspace
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+set autoindent
+set expandtab
+
 "show abs line number for curr line
 set nu
 "show relative line number for others
