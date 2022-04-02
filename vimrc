@@ -3,7 +3,7 @@ if has('win32')
   set t_Co=256
 endif
 
-set backspace=2
+set backspace=2 "set backspace to backspace
 
 "enable pathegen plugin manager
 execute pathogen#infect()
