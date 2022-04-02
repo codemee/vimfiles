@@ -3,6 +3,8 @@ if has('win32')
   set t_Co=256
 endif
 
+set backspace=2
+
 "enable pathegen plugin manager
 execute pathogen#infect()
 syntax on
