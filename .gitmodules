@@ -4,3 +4,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+[submodule "bundle/vim-floaterm"]
+	path = bundle/vim-floaterm
+	url = https://github.com/voldikss/vim-floaterm.git
