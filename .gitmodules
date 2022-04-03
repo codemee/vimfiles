@@ -4,6 +4,3 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
-[submodule "bundle/vim-terminal"]
-	path = bundle/vim-terminal
-	url = https://github.com/tc50cal/vim-terminal.git
