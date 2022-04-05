@@ -11,3 +11,4 @@
 	path = bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
   branch = release
+  depth = 1
