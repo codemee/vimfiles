@@ -1,12 +1,15 @@
 [submodule "bundle/vim-airline"]
 	path = bundle/vim-airline
 	url = https://github.com/vim-airline/vim-airline
+  depth = 1
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = https://github.com/preservim/nerdtree.git
+  depth = 1
 [submodule "bundle/vim-floaterm"]
 	path = bundle/vim-floaterm
 	url = https://github.com/voldikss/vim-floaterm.git
+  depth = 1
 [submodule "bundle/coc.nvim"]
 	path = bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
