@@ -11,3 +11,6 @@
 	path = bundle/coc.nvim
 	url = https://github.com/neoclide/coc.nvim.git
   branch = release
+[submodule "bundle/vim-transparent"]
+	path = bundle/vim-transparent
+	url = https://github.com/tribela/vim-transparent.git
