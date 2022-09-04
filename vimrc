@@ -43,8 +43,25 @@ map <A-f> 0i#圖()<ESC>
 map <A-t> 0i#表<Enter>------<ESC>
 map <A-d> A    <del><ESC>
 map <A-r> o------<ESC>j0
-map <A-b> 0i□<ESC>
+map <A-b> 0i□ <ESC>
 map <A-[> i【<ESC>
 map <A-]> i】<ESC>
 map <A-n> 0i#框<Return>------<return>----!!!---<return>###<return><ESC>
 map <A-j> i↓<ESC>
+
+map! <A-m> <C-O>0[<ESC>A]
+map! <A-s> <C-O>0<<<ESC>A>>
+map! <A-p> <C-O>0#程
+map! <A-3> <C-O>0###<Return>
+map! <A-S-l> <C-O>A<Enter>--------
+map! <A-l> <C-O>0#項
+map! <A-e> <C-O>0#習
+map! <A-f> <C-O>0#圖()
+map! <A-t> <C-O>0#表<Enter>------
+map! <A-d> <C-O>A    <del>
+map! <A-r> <C-O>o------<Down>
+map! <A-b> <C-O>0□<SPACE>
+map! <A-[> 【
+map! <A-]> 】
+map! <A-n> <C-O>0#框<Return>------<return>----!!!---<return>###<return>
+map! <A-j> i↓
