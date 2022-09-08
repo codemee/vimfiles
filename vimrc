@@ -3,6 +3,9 @@ if has('win32')
   set t_Co=256
 endif
 
+" disable mouse
+set mouse-=a
+
 set backspace=2 "set backspace to backspace
 
 "enable pathegen plugin manager
@@ -64,4 +67,5 @@ map! <A-b> <C-O>0□<SPACE>
 map! <A-[> 【
 map! <A-]> 】
 map! <A-n> <C-O>0#框<Return>------<return>----!!!---<return>###<return>
-map! <A-j> i↓
+map! <A-j> ↓
+map! <A-S-j> <end>↓<del><end>
