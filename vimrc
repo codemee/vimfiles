@@ -7,6 +7,7 @@ endif
 set mouse-=a
 
 set backspace=2 "set backspace to backspace
+set guicursor=i:block-cursor
 
 "enable pathegen plugin manager
 execute pathogen#infect()
@@ -41,6 +42,7 @@ map <A-p> 0i#程<ESC>
 map <A-3> 0i###<Return><ESC>
 map <A-S-l> A<Enter>--------<ESC>
 map <A-l> 0i#項<ESC>
+map <A-S-s> 0i#步<ESC>
 map <A-e> 0i#習<ESC>
 map <A-f> 0i#圖()<ESC>
 map <A-t> 0i#表<Enter>------<ESC>
@@ -59,6 +61,7 @@ map! <A-3> <C-O>0###<Return>
 map! <A-S-l> <C-O>A<Enter>--------
 map! <A-l> <C-O>0#項
 map! <A-e> <C-O>0#習
+map <A-S-s> <C-O>0i#步
 map! <A-f> <C-O>0#圖()
 map! <A-t> <C-O>0#表<Enter>------
 map! <A-d> <C-O>A    <del>
