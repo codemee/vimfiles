@@ -21,6 +21,6 @@ It uses [Pathogan](https://github.com/tpope/vim-pathogen) plugins manager. Plugi
 For the coc-vim plugin, you need to start vim and runthe following command to add any specific language extentions. For example, you can add Python coc extension with following command:
 
 ```vim
-:CocInstall pyright
+:CocInstall coc-pyright
 ```
 
