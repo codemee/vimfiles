@@ -2,6 +2,7 @@
 if has('win32')
   set t_Co=256   " set to 256 colors instead of 16
   set shell=pwsh " set default shell to PowerSehll
+  set termguicolors " for Alacritty on Windows
 endif
 
 " disable mouse
